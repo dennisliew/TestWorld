@@ -1,6 +1,6 @@
 
  Start         Length     Name                   Class
- 0001:00000000 000AF0B4H .text                   CODE
+ 0001:00000000 000AF0DCH .text                   CODE
  0002:00000000 000071F0H .data                   DATA
  0002:000071F0 000048C5H .bss                    BSS
 
@@ -70,8 +70,8 @@ Detailed map of segments
  0001:0009A694 00001608 C=CODE     S=.text    G=(none)   M=ImgList  ACBP=A9
  0001:0009BC9C 000064CD C=CODE     S=.text    G=(none)   M=Menus    ACBP=A9
  0001:000A216C 0000CAD4 C=CODE     S=.text    G=(none)   M=Forms    ACBP=A9
- 0001:000AEC40 000001F4 C=CODE     S=.text    G=(none)   M=TestWorldMain ACBP=A9
- 0001:000AEE34 0000027D C=CODE     S=.text    G=(none)   M=TestWorld ACBP=A9
+ 0001:000AEC40 0000021C C=CODE     S=.text    G=(none)   M=TestWorldMain ACBP=A9
+ 0001:000AEE5C 0000027D C=CODE     S=.text    G=(none)   M=TestWorld ACBP=A9
  0002:00000000 00000090 C=DATA     S=.data    G=DGROUP   M=System   ACBP=A9
  0002:00000090 00000018 C=DATA     S=.data    G=DGROUP   M=SysInit  ACBP=A9
  0002:000000A8 00000014 C=DATA     S=.data    G=DGROUP   M=ELeaks   ACBP=A9
@@ -169,73 +169,73 @@ Detailed map of segments
 
   Address         Publics by Name
 
- 0002:00001200       ..
- 0002:00001274       ..
- 0002:00001560       ..
- 0002:00001208       ..
- 0001:0003A38C       ..
- 0002:000011F4       ..
- 0002:00001434       ..
- 0002:0000AB14       ..
+ 0001:00034F3C       ..
  0002:000012C4       ..
- 0002:00001220       ..
+ 0001:0003A38C       ..
+ 0001:00036924       ..
+ 0002:00001274       ..
+ 0002:00001198       ..
+ 0001:00036450       ..
+ 0002:00001560       ..
+ 0002:00001200       ..
+ 0002:000011F4       ..
+ 0002:0000AB14       ..
  0001:0003685C       ..
  0002:00008B14       ..
- 0001:00036924       ..
- 0001:00036450       ..
- 0001:00034F3C       ..
- 0002:00001198       ..
+ 0002:00001220       ..
+ 0002:00001208       ..
+ 0002:00001434       ..
  0002:0000C7A8       .01
  0002:0000C69C       .1
- 0002:0000C774       .1
- 0002:0000871C       .1
- 0002:000088A4       .1
- 0002:00008A88       .1
- 0002:00008780       .1
- 0002:0000B3A0       .1
- 0002:0000C72C       .1
- 0002:00008AF8       .1
- 0002:0000C740       .1
- 0002:0000C708       .1
- 0002:0000C78C       .1
- 0002:0000C790       .1
- 0002:0000C794       .1
  0002:0000C798       .1
  0002:0000C79C       .1
- 0002:0000C7EC       .1
+ 0002:00008A88       .1
  0002:0000C7A4       .1
- 0002:00008724       .1
- 0002:00008AF4       .1
- 0002:00008AF0       .1
  0002:00008AD8       .1
- 0002:0000C7FC       .1
- 0002:0000B7A4       .1
- 0002:00008B08       .1
- 0002:00008744       .1
+ 0002:00008724       .1
+ 0002:00008780       .1
+ 0002:00008AF4       .1
  0002:0000B7C0       .1
+ 0002:0000C740       .1
+ 0002:000088A4       .1
  0002:000088A8       .1
- 0002:0000C7A0       .12
+ 0002:00008744       .1
+ 0002:0000C794       .1
+ 0002:0000871C       .1
+ 0002:0000C790       .1
+ 0002:00008AF8       .1
+ 0002:0000C78C       .1
+ 0002:0000C774       .1
+ 0002:0000C708       .1
+ 0002:0000C7FC       .1
+ 0002:00008AF0       .1
+ 0002:0000C72C       .1
+ 0002:0000C7EC       .1
+ 0002:00008B08       .1
+ 0002:0000B3A0       .1
+ 0002:0000B7A4       .1
  0002:0000C6A4       .12
- 0002:0000C7E4       .2
- 0002:0000C700       .2
- 0002:0000C744       .2
+ 0002:0000C7A0       .12
  0002:00008B10       .2
+ 0002:0000B81C       .2
+ 0002:0000C700       .2
  0002:0000C8C0       .2
  0002:0000B818       .2
- 0002:0000B81C       .2
- 0002:0000B844       .21
+ 0002:0000C7E4       .2
+ 0002:0000C744       .2
  0002:0000C704       .21
- 0002:00008A90       .3
- 0002:0000C888       .3
- 0002:0000C74C       .3
- 0002:0000C750       .3
- 0002:00008728       .3
+ 0002:0000B844       .21
  0002:0000B7C4       .3
  0002:0000B814       .3
+ 0002:00008728       .3
+ 0002:0000C888       .3
+ 0002:0000C750       .3
+ 0002:00008A90       .3
+ 0002:0000C74C       .3
  0002:0000B810       .3
  0002:00008A9C       .35
- 0002:00008AE4       .4
  0002:00008B0C       .4
+ 0002:00008AE4       .4
  0002:0000C8A4       .41
  0002:0000C788       .42
  0002:000085BC       .5
@@ -453,8 +453,8 @@ Detailed map of segments
  0001:0009D894       AddIn
  0002:00008740       AddLeak
  0001:0005CF78       AddModule
- 0001:000054E4       AddModuleUnloadProc
  0001:000054D4       AddModuleUnloadProc
+ 0001:000054E4       AddModuleUnloadProc
  0001:00057288       AddNewProcess
  0001:00057650       AddNewProcessEx
  0001:00020760       AddNotFinished
@@ -472,8 +472,8 @@ Detailed map of segments
  0001:00036554       adler32
  0001:00067118       AfterScreenshot
  0001:00066E30       AfterScreenshotToStream
- 0002:00006CA8       Alignments
  0002:00006C98       Alignments
+ 0002:00006CA8       Alignments
  0002:000069AC       Alignments
  0001:000ABE20       AlignWork
  0001:00090D30       AlignWork
@@ -594,8 +594,8 @@ Detailed map of segments
  0002:0000C7B4       ButtonWidths
  0002:0000612C       ByteRegs1
  0002:00006130       ByteRegs2
- 0001:000666A4       BytesPerScanline
  0001:0007C558       BytesPerScanline
+ 0001:000666A4       BytesPerScanline
  0001:00066110       BytesSwap
  0001:0007C8B0       ByteSwapColors
  0001:0000E694       ByteToCharIndex
@@ -674,14 +674,14 @@ Detailed map of segments
  0002:0000B970       CanSendError_Show
  0002:0000B974       CanSendMessage
  0002:0000B973       CanSupport_Show
- 0002:0000C6F8       CanvasList
  0002:0000C854       CanvasList
+ 0002:0000C6F8       CanvasList
  0002:0000BBEC       CaptionFontName
  0002:000069CC       Captions
  0002:0000BE28       CAPTION_HEIGHT
  0002:00006B3C       CaptureControl
- 0002:00002220       cBase64Codec
  0002:000021E0       cBase64Codec
+ 0002:00002220       cBase64Codec
  0002:00006BE0       cBooleanToItemAutoFlag
  0002:000004CC       CBooleanToRelationship
  0001:0005F5E8       CenterOnActiveWndMonitor
@@ -698,8 +698,8 @@ Detailed map of segments
  0001:000038D0       CharFromWChar
  0001:0000E868       CharLength
  0001:0000646C       CharLowerBuff
- 0001:00000274       CharNext
  0001:00006474       CharNext
+ 0001:00000274       CharNext
  0002:00004E4C       chars
  0001:0007AE88       CharsetToIdent
  0001:0000E77C       CharToByteIndex
@@ -742,8 +742,8 @@ Detailed map of segments
  0001:00087F64       Clipbrd
  0001:00053FAC       CloneObject
  0001:00006494       CloseClipboard
- 0001:00005E54       CloseHandle
  0001:00000214       CloseHandle
+ 0001:00005E54       CloseHandle
  0001:0005A10C       CloseLogFile
  0001:00052100       ClosePrinter
  0001:00067E84       CloseSendDialog
@@ -787,8 +787,8 @@ Detailed map of segments
  0001:0003C310       Compress
  0001:00036910       compressBound
  0001:0007D110       ComputeAldusChecksum
- 0001:00053AAC       ComputerName
  0001:0002D220       ComputerName
+ 0001:00053AAC       ComputerName
  0001:00031BF4       connect
  0001:00079418       Consts
  0001:00082370       Contnrs
@@ -878,8 +878,8 @@ Detailed map of segments
  0001:00034CC0       CreateZipFile
  0001:000695B8       CreateZIPFile
  0001:00076E1C       Create_EurekaLogUnitsList
- 0002:000069C4       CreationControl
  0002:00006A7C       CreationControl
+ 0002:000069C4       CreationControl
  0002:00000594       CRelationshipToBoolean
  0002:00000418       CResult
  0002:00000F3C       CriticalError
@@ -942,8 +942,8 @@ Detailed map of segments
  0001:00000DD0       DecommitFree
  0002:000085F8       decommittedRoot
  0001:0003CF5C       Decrypt
- 0001:000A74EC       Default
  0001:000AC9E4       Default
+ 0001:000A74EC       Default
  0002:00000010       Default8087CW
  0002:00006A80       DefaultDockTreeClass
  0002:00000024       DefaultTextLineBreakStyle
@@ -962,8 +962,8 @@ Detailed map of segments
  0001:000064DC       DefWindowProc
  0001:00005028       DelayLoadResourceModule
  0001:00000470       DeleteBlock
- 0001:000003E0       DeleteCriticalSection
  0001:00005E94       DeleteCriticalSection
+ 0001:000003E0       DeleteCriticalSection
  0001:0000627C       DeleteDC
  0001:00006284       DeleteEnhMetaFile
  0001:00069728       DeleteExtraFiles
@@ -1014,11 +1014,11 @@ Detailed map of segments
  0001:00096F60       DoFindZone
  0001:00096A58       DoForEach
  0001:00098364       DoGetNextLimit
- 0001:00033058       Done
- 0001:00034764       Done
+ 0001:000088F4       Done
  0001:0002D55C       Done
  0001:00078D28       Done
- 0001:000088F4       Done
+ 0001:00033058       Done
+ 0001:00034764       Done
  0001:000A47BC       DoneApplication
  0001:00076B04       DoneCheckFreeze
  0001:000990C4       DoneControls
@@ -1133,8 +1133,8 @@ Detailed map of segments
  0001:0001D234       EndGlobalLoading
  0001:00006574       EndPaint
  0001:000037A8       EndThread
- 0001:000003D0       EnterCriticalSection
  0001:00005EAC       EnterCriticalSection
+ 0001:000003D0       EnterCriticalSection
  0001:00005EB4       EnumCalendarInfoA
  0002:0000C728       EnumDisplayMonitors
  0001:0000D754       EnumEraNames
@@ -1144,18 +1144,18 @@ Detailed map of segments
  0001:0000657C       EnumThreadWindows
  0001:00006584       EnumWindows
  0001:00055FB4       EnumWindowsProc
- 0001:0005600C       EnumWindowsProc
  0001:0005611C       EnumWindowsProc
+ 0001:0005600C       EnumWindowsProc
  0001:0002E528       Eof
  0001:0000658C       EqualRect
  0002:00008854       EraNames
  0001:0000CE7C       EraToYear
  0002:00008870       EraYearOffsets
  0002:00000078       errCaption
- 0001:0001C760       Error
  0001:0009CBC8       Error
- 0001:0000835C       Error
  0001:000202B4       Error
+ 0001:0000835C       Error
+ 0001:0001C760       Error
  0001:000671E4       Error
  0001:000018BC       Error
  0002:00000004       ErrorAddr
@@ -1225,8 +1225,8 @@ Detailed map of segments
  0001:0000028C       ExitProcess
  0002:00008028       ExitProcessProc
  0002:00000134       ExitProcList
- 0001:00000284       ExitThread
  0001:00005EC4       ExitThread
+ 0001:00000284       ExitThread
  0001:00044BDC       EXMLBuilder
  0001:00029A28       ExpandEnvVars
  0001:0000A4DC       ExpandFileName
@@ -1261,8 +1261,8 @@ Detailed map of segments
  0002:0000BBD8       fFixedFont2
  0001:0000A0FC       FileAge
  0001:0000A0F4       FileClose
- 0001:0000A02C       FileCreate
  0001:0000A050       FileCreate
+ 0001:0000A02C       FileCreate
  0001:0000A7CC       FileDateToDateTime
  0001:0000A164       FileExists
  0002:00006958       FileFormats
@@ -1283,71 +1283,71 @@ Detailed map of segments
  0001:00000D28       FillerSizeBeforeGap
  0001:00006594       FillRect
  0001:0005719C       FillThreadsCount
- 0001:00082434       Finalization
- 0001:00006BA4       Finalization
- 0001:000445E4       Finalization
- 0001:00026BE4       Finalization
- 0001:00031BB4       Finalization
- 0001:00026AD8       Finalization
- 0001:00044BAC       Finalization
- 0001:00082BB4       Finalization
- 0001:00031B08       Finalization
- 0001:00033100       Finalization
- 0001:00048EB0       Finalization
- 0001:00082BF4       Finalization
- 0001:00083C7C       Finalization
- 0001:0000FC10       Finalization
- 0001:00083CC4       Finalization
- 0001:0000FE10       Finalization
- 0001:00083CFC       Finalization
- 0001:000A2074       Finalization
- 0001:00084020       Finalization
- 0001:00085C30       Finalization
- 0001:00085C68       Finalization
- 0001:00085CA0       Finalization
- 0001:00082340       Finalization
- 0001:00085CD8       Finalization
- 0001:0003CCCC       Finalization
- 0001:00085D10       Finalization
- 0001:00085D48       Finalization
- 0001:0004A1D0       Finalization
- 0001:0001980C       Finalization
- 0001:00082088       Finalization
- 0001:00031C54       Finalization
+ 0001:000294D4       Finalization
  0001:00086BA4       Finalization
- 0001:00086BF8       Finalization
- 0001:0002D560       Finalization
- 0001:000AEBA0       Finalization
- 0001:00019B8C       Finalization
- 0001:00087EA0       Finalization
- 0001:0000897C       Finalization
- 0001:00078F9C       Finalization
- 0001:00081EA8       Finalization
+ 0001:00085D48       Finalization
+ 0001:00085D10       Finalization
+ 0001:00085CD8       Finalization
  0001:00051598       Finalization
- 0001:0003C1D0       Finalization
+ 0001:00087EA0       Finalization
+ 0001:00085CA0       Finalization
+ 0001:00085C68       Finalization
+ 0001:00085C30       Finalization
+ 0001:0004A1D0       Finalization
+ 0001:00084020       Finalization
+ 0001:00048EB0       Finalization
+ 0001:00026BE4       Finalization
+ 0001:00044BAC       Finalization
  0001:00087F28       Finalization
  0001:00087FBC       Finalization
  0001:00088124       Finalization
- 0001:000294D4       Finalization
- 0001:000793E8       Finalization
+ 0001:00083CFC       Finalization
  0001:00088D48       Finalization
- 0001:0003476C       Finalization
- 0001:00033234       Finalization
- 0001:00005DDC       Finalization
- 0001:000107A8       Finalization
- 0001:00005D64       Finalization
- 0001:0009BC64       Finalization
- 0001:0001A938       Finalization
- 0001:0009A638       Finalization
+ 0001:00083CC4       Finalization
+ 0001:00083C7C       Finalization
+ 0001:00031C54       Finalization
+ 0001:0000FC10       Finalization
+ 0001:00026AD8       Finalization
+ 0001:00082BF4       Finalization
+ 0001:00082BB4       Finalization
+ 0001:0000FE10       Finalization
+ 0001:00082434       Finalization
+ 0001:000445E4       Finalization
  0001:0003D48C       Finalization
+ 0001:00033100       Finalization
+ 0001:0003D2FC       Finalization
+ 0001:00033234       Finalization
+ 0001:0003D020       Finalization
+ 0001:0003CCCC       Finalization
+ 0001:000AEBA0       Finalization
+ 0001:0003C1D0       Finalization
+ 0001:0003476C       Finalization
+ 0001:00082340       Finalization
+ 0001:00082088       Finalization
+ 0001:00031BB4       Finalization
+ 0001:0001A990       Finalization
+ 0001:0001A938       Finalization
+ 0001:00081EA8       Finalization
+ 0001:00031B08       Finalization
+ 0001:00006BA4       Finalization
+ 0001:00086BF8       Finalization
+ 0001:000AEE24       Finalization
+ 0001:00019B8C       Finalization
+ 0001:000AEE5C       Finalization
+ 0001:0001980C       Finalization
+ 0001:0009BC64       Finalization
+ 0001:00005DDC       Finalization
+ 0001:00005D64       Finalization
+ 0001:0009A638       Finalization
  0001:00099318       Finalization
  0001:00005B80       Finalization
- 0001:000AEDFC       Finalization
- 0001:0001A990       Finalization
- 0001:0003D2FC       Finalization
- 0001:000AEE34       Finalization
- 0001:0003D020       Finalization
+ 0001:000107A8       Finalization
+ 0001:0000897C       Finalization
+ 0001:0002D560       Finalization
  0001:00008CD0       Finalization
+ 0001:000793E8       Finalization
+ 0001:00078F9C       Finalization
+ 0001:000A2074       Finalization
  0002:00008734       FinalizationProc
  0001:00004CCC       FinalizeArray
  0001:000033B8       FinalizeUnits
@@ -1357,13 +1357,13 @@ Detailed map of segments
  0001:0001CC5C       FindClass
  0001:00005020       FindClassHInstance
  0001:00005EDC       FindClose
- 0001:0000A24C       FindClose
  0001:0000029C       FindClose
+ 0001:0000A24C       FindClose
  0001:00000C7C       FindCommitted
  0001:0008ADCC       FindControl
  0001:0009718C       FindControlAtPos
- 0001:0001971C       FindCustomVariantType
  0001:00019664       FindCustomVariantType
+ 0001:0001971C       FindCustomVariantType
  0001:0008C764       FindDragTarget
  0001:00068F60       FindEOFLine
  0001:0003EC3C       FindErrorMessage
@@ -1445,8 +1445,8 @@ Detailed map of segments
  0001:00075D9C       ForceApplicationTermination
  0001:000A4A10       ForegroundTask
  0002:0000C8BC       Form1
- 0002:00000184       Format
  0001:0000AFE8       Format
+ 0002:00000184       Format
  0001:0000AB54       FormatBuf
  0001:0000AB48       FormatClearStr
  0001:0006E140       FormatComplete
@@ -1469,8 +1469,8 @@ Detailed map of segments
  0001:0008C824       FreeDeviceContext
  0001:0008C8E0       FreeDeviceContexts
  0001:000268A4       FreeIntConstList
- 0001:00005F0C       FreeLibrary
  0001:000002AC       FreeLibrary
+ 0001:00005F0C       FreeLibrary
  0001:0007EFBC       FreeMemoryContexts
  0001:000269D8       FreeObjectInstance
  0001:000523E0       FreeOutOfMemoryCache
@@ -1493,8 +1493,8 @@ Detailed map of segments
  0001:00058454       GenerateHTML
  0001:00043468       GenerateMultipartBoundary
  0001:0003F8B4       GenerateMultipartBoundary
- 0001:00043598       GenerateRequestBody
  0001:0003FA08       GenerateRequestBody
+ 0001:00043598       GenerateRequestBody
  0001:00005F1C       GetACP
  0001:0006B970       GetActiveControlClass
  0001:0006B988       GetActiveControlText
@@ -1557,8 +1557,8 @@ Detailed map of segments
  0001:00075E48       GetCurrentStackPointer
  0001:0005D7C8       GetCurrentStackPointer
  0001:00005F4C       GetCurrentThread
- 0001:00005F54       GetCurrentThreadId
  0001:0000037C       GetCurrentThreadId
+ 0001:00005F54       GetCurrentThreadId
  0001:000069A4       GetCurrentTime
  0001:00054000       GetCurrentTopOfStack
  0001:0006DA94       GetCurrentUserPrivileges
@@ -1622,8 +1622,8 @@ Detailed map of segments
  0001:0000D808       GetEraNamesAndYearOffsets
  0001:0000CE28       GetEraYearOffset
  0001:0006F25C       GetESI
- 0001:0006F30C       GetESP
  0001:00054FA4       GetESP
+ 0001:0006F30C       GetESP
  0001:0005C71C       GetEurekaLogModuleVersion
  0001:0006BB84       GetExceptionAddress
  0001:0000E188       GetExceptionClass
@@ -1639,13 +1639,13 @@ Detailed map of segments
  0001:0001CB90       GetFieldClassTable
  0001:0003DC3C       GetFieldValue
  0001:00005F84       GetFileAttributes
- 0001:0004352C       GetFileContents
  0001:0003EBD0       GetFileContents
+ 0001:0004352C       GetFileContents
  0001:0007DD44       GetFileFormats
- 0001:0000022C       GetFileSize
- 0001:00034D18       GetFileSize
  0001:00043FD8       GetFileSize
+ 0001:0000022C       GetFileSize
  0001:00056D20       GetFileSize
+ 0001:00034D18       GetFileSize
  0001:00000224       GetFileType
  0001:0006CE8C       GetFileVersionEx
  0001:000061DC       GetFileVersionInfo
@@ -1692,16 +1692,16 @@ Detailed map of segments
  0001:0006BB20       GetLanguageString
  0001:0000664C       GetLastActivePopup
  0001:0009670C       GetLastChildZone
- 0001:000002C4       GetLastError
  0001:00005F9C       GetLastError
+ 0001:000002C4       GetLastError
  0001:00007664       GetLeakCount
  0001:0003E5AC       GetListDefault
  0001:0003E228       GetListValue
  0001:0000D5CC       GetLocaleChar
  0001:0006B9F4       GetLocaleDataA
  0001:0006B9B4       GetLocaleDataW
- 0001:00005FAC       GetLocaleInfo
  0001:000002CC       GetLocaleInfo
+ 0001:00005FAC       GetLocaleInfo
  0001:00005FB4       GetLocaleInfoA
  0001:00005FBC       GetLocaleInfoW
  0001:0000D580       GetLocaleStr
@@ -1723,14 +1723,14 @@ Detailed map of segments
  0001:00006674       GetMenuState
  0001:0000667C       GetMenuString
  0001:0001A768       GetMethodProp
- 0001:00029FB8       GetModifiedDate
  0001:00034BBC       GetModifiedDate
+ 0001:00029FB8       GetModifiedDate
  0001:000568E0       GetModuleDescriptionAndVersion
  0001:00005FC4       GetModuleFileName
  0001:000002D4       GetModuleFileName
  0001:00005C5C       GetModuleHandle
- 0001:000002DC       GetModuleHandle
  0001:00005FCC       GetModuleHandle
+ 0001:000002DC       GetModuleHandle
  0001:000566D4       GetModulePath
  0001:000567B0       GetModuleSize
  0001:00057050       GetModulesList
@@ -1775,8 +1775,8 @@ Detailed map of segments
  0001:0006DFD8       GetPrinterStr
  0001:00005FD4       GetPriorityClass
  0001:00005FDC       GetPrivateProfileString
- 0001:00005FE4       GetProcAddress
  0001:000002E4       GetProcAddress
+ 0001:00005FE4       GetProcAddress
  0001:00057944       GetProcessesList
  0001:0006C604       GetProcessor
  0001:00056C8C       GetProcessThreads
@@ -1787,8 +1787,8 @@ Detailed map of segments
  0001:00019E10       GetPropInfos
  0001:00007014       GetRawCallStackDump
  0001:0000827C       GetRawOptions
- 0001:00006CA4       GetReadableSize
  0001:00029EE0       GetReadableSize
+ 0001:00006CA4       GetReadableSize
  0001:0005A3A8       GetRealFileName
  0001:000A50C8       GetRealScrollPosition
  0001:0004F95C       GetRefAddress
@@ -1809,10 +1809,10 @@ Detailed map of segments
  0001:0009CC20       GetSpecialName
  0001:0006F59C       GetStack
  0001:0006C51C       GetStartDate
- 0001:000002EC       GetStartupInfo
  0001:00005FF4       GetStartupInfo
- 0001:00005FFC       GetStdHandle
+ 0001:000002EC       GetStartupInfo
  0001:00000234       GetStdHandle
+ 0001:00005FFC       GetStdHandle
  0001:0000631C       GetStockObject
  0001:00006004       GetStringTypeEx
  0001:0001A19C       GetStrProp
@@ -1837,8 +1837,8 @@ Detailed map of segments
  0001:0005E688       GetTextWidth
  0001:0000602C       GetThreadContext
  0001:0005ED4C       GetThreadData
- 0001:00006034       GetThreadLocale
  0001:000002F4       GetThreadLocale
+ 0001:00006034       GetThreadLocale
  0001:00073AF8       GetThreadParams
  0001:0000603C       GetThreadPriority
  0001:00006044       GetTickCount
@@ -2022,14 +2022,14 @@ Detailed map of segments
  0001:0009FE04       IfHotkeyAvailable
  0001:000525C0       ifStr
  0002:000066A0       iLevel
- 0001:00082390       ImageList_Add
  0001:00049248       ImageList_Add
+ 0001:00082390       ImageList_Add
  0001:000823B0       ImageList_AddIcon
  0001:000823D4       ImageList_BeginDrag
  0001:00049240       ImageList_Create
  0001:00082378       ImageList_Create
- 0001:00049250       ImageList_Destroy
  0001:00082380       ImageList_Destroy
+ 0001:00049250       ImageList_Destroy
  0001:000823E4       ImageList_DragEnter
  0001:000823EC       ImageList_DragLeave
  0001:000823F4       ImageList_DragMove
@@ -2059,8 +2059,8 @@ Detailed map of segments
  0001:00011404       InBounds
  0001:000117A0       InBounds
  0001:0002D034       IncludeLastBackslash
- 0001:00011434       Increment
  0001:000117D0       Increment
+ 0001:00011434       Increment
  0002:0000B9E0       IndyHooked
  0002:0000B8EC       IndyThread_HandleException
  0002:0000B8D0       Indy_OnException
@@ -2072,10 +2072,10 @@ Detailed map of segments
  0001:00038908       inflateReset
  0001:00029C88       IniDir
  0001:00033024       Init
- 0001:00078518       Init
- 0001:0002D550       Init
- 0001:00008728       Init
  0001:0003475C       Init
+ 0001:00078518       Init
+ 0001:00008728       Init
+ 0001:0002D550       Init
  0001:00000A74       InitAllocator
  0001:0008246C       InitAnApi
  0002:0000C734       InitApis
@@ -2090,8 +2090,8 @@ Detailed map of segments
  0001:00083D9C       InitFlatSB
  0001:00087D4C       InitGlobals
  0001:0007D128       InitializeBitmapInfoHeader
- 0001:000060B4       InitializeCriticalSection
  0001:000003C8       InitializeCriticalSection
+ 0001:000060B4       InitializeCriticalSection
  0002:0000116C       Initialized
  0002:0000665C       Initialized
  0002:000085C0       initialized
@@ -2117,8 +2117,8 @@ Detailed map of segments
  0001:0008ACE4       InitWndProc
  0002:00006B48       InnerStyles
  0002:00008050       Input
- 0001:000ABAC4       InsertBefore
  0001:000906F4       InsertBefore
+ 0001:000ABAC4       InsertBefore
  0001:0005F63C       InsertColumn
  0001:00000E80       InsertFree
  0001:000522C8       InsertHandled
@@ -2156,8 +2156,8 @@ Detailed map of segments
  0001:000671F0       InternalSendMail
  0001:000333B8       InternalStartup
  0001:00003C88       InternalUniqueString
- 0001:000771EC       Internal_AddLeak
  0001:00007A9C       Internal_AddLeak
+ 0001:000771EC       Internal_AddLeak
  0001:00077914       Internal_Finalization
  0001:000778FC       Internal_MultiFreeProc
  0001:000778E4       Internal_OverrunProc
@@ -2198,8 +2198,8 @@ Detailed map of segments
  0001:00009D48       IntToHex
  0001:00009D0C       IntToHex
  0001:0001D028       IntToIdent
- 0001:00009CD8       IntToStr
  0001:00009CA8       IntToStr
+ 0001:00009CD8       IntToStr
  0001:0000673C       InvalidateRect
  0001:00006744       InvalidateRgn
  0001:0007C2A8       InvalidBitmap
@@ -2221,8 +2221,8 @@ Detailed map of segments
  0001:00056104       IsANewProcessWindow
  0001:00007434       IsAntiLeaksEnabled
  0001:00054324       IsAParent
- 0001:00006E58       IsAParentClassStr
  0001:00054214       IsAParentClassStr
+ 0001:00006E58       IsAParentClassStr
  0001:000543E8       IsAParentClassStr_Unsafe
  0001:00054394       IsAParents
  0001:000542FC       IsAParentStr
@@ -2249,11 +2249,11 @@ Detailed map of segments
  0001:00024170       IsDefault
  0001:000243EC       IsDefault
  0001:000249A8       IsDefaultValue
- 0001:000240D8       IsDefaultValue
- 0001:00024034       IsDefaultValue
- 0001:00024870       IsDefaultValue
- 0001:00023F04       IsDefaultValue
  0001:0002467C       IsDefaultValue
+ 0001:00024034       IsDefaultValue
+ 0001:00023F04       IsDefaultValue
+ 0001:000240D8       IsDefaultValue
+ 0001:00024870       IsDefaultValue
  0001:00054F90       IsDelphiException
  0001:0008BC34       IsDelphiHandle
  0001:00006754       IsDialogMessage
@@ -2300,8 +2300,8 @@ Detailed map of segments
  0001:00019E64       IsStoredProp
  0001:0001D104       IsUniqueGlobalComponentName
  0002:00008A98       IsUniqueGlobalComponentNameProc
- 0001:00006D2C       IsValidBlockAddr
  0001:00029F68       IsValidBlockAddr
+ 0001:00006D2C       IsValidBlockAddr
  0001:000540AC       IsValidClass
  0001:00006E08       IsValidClass
  0001:00033EA4       IsValidDNS
@@ -2376,8 +2376,8 @@ Detailed map of segments
  0002:00006658       LeaksStackList
  0002:0000BB30       LeakTotalCount
  0002:0000BB2C       LeakTotalSize
- 0001:000060C4       LeaveCriticalSection
  0001:000003D8       LeaveCriticalSection
+ 0001:000060C4       LeaveCriticalSection
  0002:0000BDB8       LeftButton
  0002:00000028       LibModuleList
  0001:00048CA4       Lines
@@ -2404,16 +2404,16 @@ Detailed map of segments
  0001:00005264       LoadResourceModule
  0001:00005B28       LoadResString
  0001:00054780       LoadSharedDataEx
- 0001:000067B4       LoadString
  0001:00000304       LoadString
+ 0001:000067B4       LoadString
  0001:0005AA00       LoadTextFile
- 0001:00005C64       LocalAlloc
  0001:000003A8       LocalAlloc
+ 0001:00005C64       LocalAlloc
  0001:0006BA38       LocalesCallback
  0001:000003B0       LocalFree
  0001:0000D5F4       LocalGetLocaleStr
- 0001:00073D2C       LockCheck
  0001:00006F60       LockCheck
+ 0001:00073D2C       LockCheck
  0001:000060E4       LockResource
  0001:00006F6C       LockVariable
  0001:000690F0       LogFileMessage
@@ -2450,8 +2450,8 @@ Detailed map of segments
  0001:000060EC       MapViewOfFile
  0001:000067BC       MapVirtualKey
  0001:000067C4       MapWindowPoints
- 0002:00006698       Mask
  0002:00006BCC       Mask
+ 0002:00006698       Mask
  0001:00006364       MaskBlt
  0001:000820B8       Math
  0001:0002E198       Max
@@ -2467,14 +2467,14 @@ Detailed map of segments
  0001:00000488       MergeBlockAfter
  0001:00000F54       MergeCommit
  0001:000067CC       MessageBeep
- 0001:00000294       MessageBox
  0001:000067D4       MessageBox
+ 0001:00000294       MessageBox
  0001:00087C50       MessageDlgPos
  0001:00087C74       MessageDlgPosHelp
  0001:0000FE40       Messages
+ 0001:00082078       Min
  0001:0001DBD4       Min
  0001:0002E1A0       Min
- 0001:00082078       Min
  0001:0009003C       MinVar
  0002:0000C73C       MMAvailable
  0002:00006A4C       ModalResults
@@ -2484,9 +2484,9 @@ Detailed map of segments
  0001:00032280       ModRMByte
  0002:00000090       Module
  0001:00060124       ModuleBmp
+ 0001:00032224       ModuleFileName
  0001:000318F8       ModuleFileName
  0001:000523FC       ModuleFileName
- 0001:00032224       ModuleFileName
  0001:0005641C       ModuleInfoByAddr
  0001:00056360       ModuleInfoByHandle
  0002:0000B9BC       ModuleInfoData
@@ -2534,9 +2534,9 @@ Detailed map of segments
  0002:000039D4       NetLib
  0001:00000FE0       NewCommit
  0001:0000100C       NewCommitAt
- 0001:00065DA8       NewDialogProc
- 0001:0005E7A8       NewDialogProc
  0001:00062B0C       NewDialogProc
+ 0001:0005E7A8       NewDialogProc
+ 0001:00065DA8       NewDialogProc
  0001:000074C8       NewFreeMem
  0001:0000745C       NewGetMem
  0002:000000B0       NewMemoryManager
@@ -2647,8 +2647,8 @@ Detailed map of segments
  0001:00006804       PeekMessage
  0001:0002FC78       PEInitialize
  0001:0002FBD8       PeMapImgFindSection
- 0001:0002FC34       PeMapImgNtHeaders
  0001:00032B38       PeMapImgNtHeaders
+ 0001:0002FC34       PeMapImgNtHeaders
  0001:0002FBC4       PeMapImgSections
  0002:0000C6F0       PenManager
  0002:00006934       PenModes
@@ -2674,8 +2674,8 @@ Detailed map of segments
  0002:0000C24C       PNG_RowBytes
  0002:0000C678       PNG_UsePal
  0002:0000C694       PNG_Width
- 0001:00005DB8       Point
  0001:0001C0C0       Point
+ 0001:00005DB8       Point
  0001:0001C4F8       PointerInModule
  0001:000918A4       PointsEqual
  0001:00006A48       PointToSmallPoint
@@ -2709,8 +2709,8 @@ Detailed map of segments
  0001:0000681C       PtInRect
  0002:00000FA0       PublicsByNameHeader
  0002:00000FB0       PublicsByValueHeader
- 0001:0000706C       PurgeCallStack
  0001:0005D2BC       PurgeCallStack
+ 0001:0000706C       PurgeCallStack
  0001:00007B60       PurgeCallStacks
  0001:0003D7CC       PurgeHTMLCode
  0001:0000794C       PurgeInvalidLeaks
@@ -2723,8 +2723,8 @@ Detailed map of segments
  0001:0002A320       QuickStringReplace
  0001:0000E0C4       RaiseAssertException
  0002:0000B94C       RaisedExceptAddr
- 0001:0000023C       RaiseException
  0001:0001FA24       RaiseException
+ 0001:0000023C       RaiseException
  0002:00008014       RaiseExceptionProc
  0001:0000F240       RaiseLastOSError
  0002:00000008       RandSeed
@@ -2746,8 +2746,8 @@ Detailed map of segments
  0001:0002A554       ReadKey
  0001:0004FBD0       ReadSib
  0001:0005F700       ReadState
- 0001:0002E668       ReadString
  0001:0002B7E4       ReadString
+ 0001:0002E668       ReadString
  0001:00029D00       ReadString
  0001:0002E550       ReadTextLine
  0001:0004F91C       ReadWord
@@ -2762,8 +2762,8 @@ Detailed map of segments
  0002:0000BDA0       RealTop
  0002:0000BDA4       RealWidth
  0001:00021168       Recover
- 0001:00005D9C       Rect
  0001:0001C0E8       Rect
+ 0001:00005D9C       Rect
  0001:00006394       Rectangle
  0001:0000638C       RectVisible
  0001:00031C0C       recv
@@ -2774,8 +2774,8 @@ Detailed map of segments
  0001:00005E34       RegCloseKey
  0001:00005E3C       RegEnumKeyEx
  0002:00008AA4       RegGroups
- 0001:0001CC7C       RegisterClass
  0001:0000682C       RegisterClass
+ 0001:0001CC7C       RegisterClass
  0001:00006834       RegisterClipboardFormat
  0001:0008BB7C       RegisterDockSite
  0001:0001D06C       RegisterFindGlobalComponentProc
@@ -2785,8 +2785,8 @@ Detailed map of segments
  0001:0000683C       RegisterWindowMessage
  0001:00005E44       RegOpenKeyEx
  0001:0000032C       RegOpenKeyEx
- 0001:00000334       RegQueryValueEx
  0001:00005E4C       RegQueryValueEx
+ 0001:00000334       RegQueryValueEx
  0001:00085C98       RegStr
  0001:00006844       ReleaseCapture
  0001:0000684C       ReleaseDC
@@ -2804,8 +2804,8 @@ Detailed map of segments
  0001:00007BE0       RemoveLeaksSons
  0001:000077F0       RemoveMemBlock
  0001:00006854       RemoveMenu
- 0001:000054DC       RemoveModuleUnloadProc
  0001:00005504       RemoveModuleUnloadProc
+ 0001:000054DC       RemoveModuleUnloadProc
  0001:0000685C       RemoveProp
  0001:0002527C       RemoveThread
  0001:00050EC0       Replacer
@@ -2820,10 +2820,10 @@ Detailed map of segments
  0001:000A4768       RestoreFocusState
  0001:0005B6C4       RestoreGlobalExceptionRecord
  0001:00006124       ResumeThread
- 0001:0001D658       ReturnAddr
  0001:0000DD2C       ReturnAddr
- 0001:0001E7D4       ReturnAddr
  0001:0009CBC0       ReturnAddr
+ 0001:0001D658       ReturnAddr
+ 0001:0001E7D4       ReturnAddr
  0001:00054BC0       RFCDate
  0001:00006A0C       RGB
  0001:0007C838       RGBQuadToTriple
@@ -2971,9 +2971,9 @@ Detailed map of segments
  0001:00043444       SetProxyAuthenticationData
  0001:000433D8       SetProxyServer
  0001:000068D4       SetRect
+ 0001:00065D0C       SetRectangles
  0001:0005D900       SetRectangles
  0001:00062964       SetRectangles
- 0001:00065D0C       SetRectangles
  0001:000063F4       SetROP2
  0001:00052B6C       SetRTFBackColor
  0001:000068DC       SetScrollInfo
@@ -3019,15 +3019,15 @@ Detailed map of segments
  0002:0000880C       ShortDayNames
  0002:000087AC       ShortMonthNames
  0002:000087A4       ShortTimeFormat
- 0002:00006D44       ShowCommands
  0002:00006D2C       ShowCommands
+ 0002:00006D44       ShowCommands
  0002:00006D38       ShowCommands
  0001:0000691C       ShowCursor
  0001:00065A6C       ShowDialog
  0002:00006144       ShowEurekaLogUnits
  0001:0000DC74       ShowException
- 0002:00006B40       ShowFlags
  0002:00006DE0       ShowFlags
+ 0002:00006B40       ShowFlags
  0002:0000BE05       ShowInDetailsMode
  0002:0000873C       ShowLeaks
  0001:000A4770       ShowMDIClientEdge
@@ -3119,8 +3119,8 @@ Detailed map of segments
  0001:00087FEC       StrUtils
  0002:00006D18       Styles
  0002:0000BD90       SupportLinkActive
- 0001:0000F800       Supports
  0001:0000F824       Supports
+ 0001:0000F800       Supports
  0001:0000617C       SuspendThread
  0001:0003CD28       SwapDWord
  0001:0005BDF8       SynchronizeEvent
@@ -3131,8 +3131,8 @@ Detailed map of segments
  0001:0002E780       SyncToPrefix
  0001:00000354       SysAllocStringLen
  0001:00008D00       SysConst
- 0002:00006CE0       SysConsts
  0002:00006CE8       SysConsts
+ 0002:00006CE0       SysConsts
  0001:0000D534       SysErrorMessage
  0001:000012F0       SysFreeMem
  0001:00000364       SysFreeString
@@ -3921,8 +3921,8 @@ Detailed map of segments
  0001:0009ACF8       TCustomImageList.Delete
  0001:0009A86C       TCustomImageList.Destroy
  0001:0009ADF0       TCustomImageList.DoDraw
- 0001:0009AFC4       TCustomImageList.Draw
  0001:0009AFE8       TCustomImageList.Draw
+ 0001:0009AFC4       TCustomImageList.Draw
  0001:0009BBF8       TCustomImageList.EndUpdate
  0001:0009B4EC       TCustomImageList.Equal
  0001:0009AB30       TCustomImageList.FreeHandle
@@ -4208,8 +4208,8 @@ Detailed map of segments
  0001:0000618C       TerminateThread
  0002:0000804E       Test8086
  0001:000468DC       TestDecrypt
- 0001:000AF06C       TestWorld
- 0001:000AEE2C       TestWorldMain
+ 0001:000AF094       TestWorld
+ 0001:000AEE54       TestWorldMain
  0001:00033CB4       TEurekaClientSMTP.GetText
  0001:00033C70       TEurekaClientSMTP.Open
  0001:00033D90       TEurekaClientSMTP.SendCommand
@@ -4351,8 +4351,8 @@ Detailed map of segments
  0001:00001DB4       TextClose
  0001:00001D28       TextIn
  0001:00001DD4       TextOpen
- 0001:0000642C       TextOut
  0001:00001D68       TextOut
+ 0001:0000642C       TextOut
  0001:0000B8F8       TextToFloat
  0001:00053C30       TextToHtml
  0001:00052B94       TextToRTF
@@ -4365,8 +4365,8 @@ Detailed map of segments
  0001:000203E0       TFiler.Create
  0001:00020428       TFiler.Destroy
  0001:00020450       TFiler.SetRoot
- 0001:0001FE48       TFileStream.Create
  0001:0001FE8C       TFileStream.Create
+ 0001:0001FE48       TFileStream.Create
  0001:0001FF54       TFileStream.Destroy
  0001:0007AFF4       TFont.Assign
  0001:0007AFD8       TFont.Changed
@@ -4389,7 +4389,8 @@ Detailed map of segments
  0001:0007B430       TFont.SetPitch
  0001:0007B3D0       TFont.SetSize
  0001:0007B3FC       TFont.SetStyle
- 0001:000AEDDC       TForm1.Button1Click
+ 0001:000AEDFC       TForm1.Button1Click
+ 0001:000AEE1C       TForm1.Button2Click
  0001:000767C8       TFreezeThread.Create
  0001:00076800       TFreezeThread.Execute
  0001:0007D580       TGraphic.Changed
@@ -4650,8 +4651,8 @@ Detailed map of segments
  0001:000A0F88       TMenu.Loaded
  0001:000A0FA0       TMenu.MenuChanged
  0001:000A1024       TMenu.Notification
- 0001:000A1418       TMenu.ParentBiDiModeChanged
  0001:000A13F0       TMenu.ParentBiDiModeChanged
+ 0001:000A1418       TMenu.ParentBiDiModeChanged
  0001:000A11AC       TMenu.ProcessMenuChar
  0001:000A1454       TMenu.SetAutoHotkeys
  0001:000A1474       TMenu.SetAutoLineReduction
@@ -4933,9 +4934,9 @@ Detailed map of segments
  0001:00006954       TranslateMessage
  0001:000110B0       TranslateResult
  0001:0007C56C       TransparentStretchBlt
- 0001:000AA830       TraverseClients
- 0001:000AA6E8       TraverseClients
  0001:000AA930       TraverseClients
+ 0001:000AA6E8       TraverseClients
+ 0001:000AA830       TraverseClients
  0001:00093600       TraverseControls
  0001:00020B0C       TReader.CheckValue
  0001:00020B64       TReader.DefineBinaryProperty
@@ -5034,9 +5035,9 @@ Detailed map of segments
  0001:0000BB38       TryStrToCurr
  0001:0000D40C       TryStrToDate
  0001:0000D4A8       TryStrToDateTime
+ 0001:0000BB0C       TryStrToFloat
  0001:0000BAE0       TryStrToFloat
  0001:0000BAC4       TryStrToFloat
- 0001:0000BB0C       TryStrToFloat
  0001:00009DDC       TryStrToInt
  0001:00009DFC       TryStrToInt64
  0001:0000D440       TryStrToTime
@@ -5126,11 +5127,11 @@ Detailed map of segments
  0001:0001F96C       TStream.GetSize
  0001:0001FB64       TStream.ReadBuffer
  0001:0001FCC8       TStream.ReadComponent
- 0001:0001FA70       TStream.Seek
  0001:0001FAF4       TStream.Seek
+ 0001:0001FA70       TStream.Seek
  0001:0001F958       TStream.SetPosition
- 0001:0001F9B8       TStream.SetSize
  0001:0001F9D0       TStream.SetSize
+ 0001:0001F9B8       TStream.SetSize
  0001:0001F9BC       TStream.SetSize64
  0001:0001FB9C       TStream.WriteBuffer
  0001:0001FD28       TStream.WriteDescendent
@@ -5185,8 +5186,8 @@ Detailed map of segments
  0001:0001E49C       TStrings.Destroy
  0001:0001E718       TStrings.EndUpdate
  0001:0001E72C       TStrings.Equals
- 0001:0001E810       TStrings.Error
  0001:0001E7D8       TStrings.Error
+ 0001:0001E810       TStrings.Error
  0001:0001E868       TStrings.Exchange
  0001:0001E950       TStrings.ExtractName
  0001:0001E994       TStrings.GetCapacity
@@ -5215,8 +5216,8 @@ Detailed map of segments
  0001:0001F254       TStrings.WriteData
  0001:000255C4       TThread.AfterConstruction
  0001:00025664       TThread.CallOnTerminate
- 0001:000255D0       TThread.CheckThreadError
  0001:0002564C       TThread.CheckThreadError
+ 0001:000255D0       TThread.CheckThreadError
  0001:0002548C       TThread.Create
  0001:0002555C       TThread.Destroy
  0001:00025678       TThread.DoTerminate
@@ -5493,8 +5494,8 @@ Detailed map of segments
  0001:00023960       TWriter.WriteDescendent
  0001:00023988       TWriter.WriteFloat
  0001:00023A18       TWriter.WriteIdent
- 0001:00023B50       TWriter.WriteInteger
  0001:00023ADC       TWriter.WriteInteger
+ 0001:00023B50       TWriter.WriteInteger
  0001:00023BA8       TWriter.WriteListBegin
  0001:00023BB0       TWriter.WriteListEnd
  0001:00025060       TWriter.WriteMinStr
@@ -5595,8 +5596,8 @@ Detailed map of segments
  0001:00011EB8       VarCastAsInterface
  0001:00011DD4       VarCastAsOleStr
  0001:00011E20       VarCastAsString
- 0001:00010E28       VarCastError
  0001:00010E7C       VarCastError
+ 0001:00010E28       VarCastError
  0001:00011F7C       VarCastRare
  0001:00011F04       VarCastViaOS
  0001:0001160C       VarClearDeep
@@ -5687,13 +5688,13 @@ Detailed map of segments
  0001:000061EC       VerQueryValue
  0001:00058A68       VersionWorkAround
  0002:0000C7F8       ViewerName
- 0001:000003B8       VirtualAlloc
  0001:0000619C       VirtualAlloc
+ 0001:000003B8       VirtualAlloc
  0001:000061A4       VirtualFree
  0001:000003C0       VirtualFree
  0001:000061AC       VirtualProtect
- 0001:000061B4       VirtualQuery
  0001:0000034C       VirtualQuery
+ 0001:000061B4       VirtualQuery
  0001:00006974       WaitForInputIdle
  0001:000061BC       WaitForSingleObject
  0001:0000697C       WaitMessage
@@ -5730,8 +5731,8 @@ Detailed map of segments
  0002:000069C8       WndProcPtrAtom
  0002:00006134       WordRegs1
  0002:0000613C       WordRegs2
- 0002:000069B8       WordWraps
  0002:000069B4       WordWraps
+ 0002:000069B8       WordWraps
  0001:0001D3FC       WriteCollection
  0001:00023E60       WriteCollectionProp
  0001:00097DEC       WriteControlName
@@ -5752,8 +5753,8 @@ Detailed map of segments
  0001:000061CC       WritePrivateProfileString
  0001:00023D0C       WritePropPath
  0001:00023D60       WriteSet
- 0001:0002B154       WriteString
  0001:00029E18       WriteString
+ 0001:0002B154       WriteString
  0001:000241F8       WriteStrProp
  0001:00058640       WriteTextToIntraWeb
  0001:000719DC       WriteToWeb
@@ -10803,11 +10804,12 @@ Detailed map of segments
  0001:000AEB80       TApplication.UnhookSynchronizeWakeup
  0001:000AEBA0       Finalization
  0001:000AEBFC       Forms
- 0001:000AEDDC       TForm1.Button1Click
- 0001:000AEDFC       Finalization
- 0001:000AEE2C       TestWorldMain
- 0001:000AEE34       Finalization
- 0001:000AF06C       TestWorld
+ 0001:000AEDFC       TForm1.Button1Click
+ 0001:000AEE1C       TForm1.Button2Click
+ 0001:000AEE24       Finalization
+ 0001:000AEE54       TestWorldMain
+ 0001:000AEE5C       Finalization
+ 0001:000AF094       TestWorld
  0002:00000000       ExitCode
  0002:00000004       ErrorAddr
  0002:00000008       RandSeed
@@ -15256,12 +15258,13 @@ Line numbers for ExceptionLog(ExceptionLog.pas) segment .text
 
 Line numbers for TestWorldMain(TestWorldMain.pas) segment .text
 
-    28 0001:000AEDDC    29 0001:000AEDE6    31 0001:000AEE2C    31 0001:000AEE33
+    30 0001:000AEDFC    31 0001:000AEE06    35 0001:000AEE1C    36 0001:000AEE21
+    38 0001:000AEE54    38 0001:000AEE5B
 
 Line numbers for TestWorld(E:\Development\Git\TestWorld\TestWorld.dpr) segment .text
 
-    10 0001:000AF06C    11 0001:000AF07C    12 0001:000AF088    13 0001:000AF0A0
-    14 0001:000AF0AC
+    10 0001:000AF094    11 0001:000AF0A4    12 0001:000AF0B0    13 0001:000AF0C8
+    14 0001:000AF0D4
 
 Bound resource files
 
@@ -15272,4 +15275,4 @@ TestWorld.res
 TestWorld.drf
 
 
-Program entry point at 0001:000AF06C
+Program entry point at 0001:000AF094
