@@ -28,6 +28,7 @@ implementation
 procedure TForm1.Button1Click(Sender: TObject);
 begin
   ShowMessage('Test World!');
+  ShowMessage('Test Dennis!');
 end;
 
 procedure TForm1.Button2Click(Sender: TObject);

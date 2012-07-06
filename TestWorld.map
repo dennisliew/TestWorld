@@ -1,6 +1,6 @@
 
  Start         Length     Name                   Class
- 0001:00000000 000AF0DCH .text                   CODE
+ 0001:00000000 000AF100H .text                   CODE
  0002:00000000 000071F0H .data                   DATA
  0002:000071F0 000048C5H .bss                    BSS
 
@@ -70,8 +70,8 @@ Detailed map of segments
  0001:0009A694 00001608 C=CODE     S=.text    G=(none)   M=ImgList  ACBP=A9
  0001:0009BC9C 000064CD C=CODE     S=.text    G=(none)   M=Menus    ACBP=A9
  0001:000A216C 0000CAD4 C=CODE     S=.text    G=(none)   M=Forms    ACBP=A9
- 0001:000AEC40 0000021C C=CODE     S=.text    G=(none)   M=TestWorldMain ACBP=A9
- 0001:000AEE5C 0000027D C=CODE     S=.text    G=(none)   M=TestWorld ACBP=A9
+ 0001:000AEC40 00000240 C=CODE     S=.text    G=(none)   M=TestWorldMain ACBP=A9
+ 0001:000AEE80 0000027D C=CODE     S=.text    G=(none)   M=TestWorld ACBP=A9
  0002:00000000 00000090 C=DATA     S=.data    G=DGROUP   M=System   ACBP=A9
  0002:00000090 00000018 C=DATA     S=.data    G=DGROUP   M=SysInit  ACBP=A9
  0002:000000A8 00000014 C=DATA     S=.data    G=DGROUP   M=ELeaks   ACBP=A9
@@ -1331,9 +1331,9 @@ Detailed map of segments
  0001:00031B08       Finalization
  0001:00006BA4       Finalization
  0001:00086BF8       Finalization
- 0001:000AEE24       Finalization
+ 0001:000AEE48       Finalization
  0001:00019B8C       Finalization
- 0001:000AEE5C       Finalization
+ 0001:000AEE80       Finalization
  0001:0001980C       Finalization
  0001:0009BC64       Finalization
  0001:00005DDC       Finalization
@@ -4208,8 +4208,8 @@ Detailed map of segments
  0001:0000618C       TerminateThread
  0002:0000804E       Test8086
  0001:000468DC       TestDecrypt
- 0001:000AF094       TestWorld
- 0001:000AEE54       TestWorldMain
+ 0001:000AF0B8       TestWorld
+ 0001:000AEE78       TestWorldMain
  0001:00033CB4       TEurekaClientSMTP.GetText
  0001:00033C70       TEurekaClientSMTP.Open
  0001:00033D90       TEurekaClientSMTP.SendCommand
@@ -4390,7 +4390,7 @@ Detailed map of segments
  0001:0007B3D0       TFont.SetSize
  0001:0007B3FC       TFont.SetStyle
  0001:000AEDFC       TForm1.Button1Click
- 0001:000AEE1C       TForm1.Button2Click
+ 0001:000AEE40       TForm1.Button2Click
  0001:000767C8       TFreezeThread.Create
  0001:00076800       TFreezeThread.Execute
  0001:0007D580       TGraphic.Changed
@@ -10805,11 +10805,11 @@ Detailed map of segments
  0001:000AEBA0       Finalization
  0001:000AEBFC       Forms
  0001:000AEDFC       TForm1.Button1Click
- 0001:000AEE1C       TForm1.Button2Click
- 0001:000AEE24       Finalization
- 0001:000AEE54       TestWorldMain
- 0001:000AEE5C       Finalization
- 0001:000AF094       TestWorld
+ 0001:000AEE40       TForm1.Button2Click
+ 0001:000AEE48       Finalization
+ 0001:000AEE78       TestWorldMain
+ 0001:000AEE80       Finalization
+ 0001:000AF0B8       TestWorld
  0002:00000000       ExitCode
  0002:00000004       ErrorAddr
  0002:00000008       RandSeed
@@ -15258,13 +15258,13 @@ Line numbers for ExceptionLog(ExceptionLog.pas) segment .text
 
 Line numbers for TestWorldMain(TestWorldMain.pas) segment .text
 
-    30 0001:000AEDFC    31 0001:000AEE06    35 0001:000AEE1C    36 0001:000AEE21
-    38 0001:000AEE54    38 0001:000AEE5B
+    30 0001:000AEDFC    31 0001:000AEE06    32 0001:000AEE10    36 0001:000AEE40
+    37 0001:000AEE45    39 0001:000AEE78    39 0001:000AEE7F
 
 Line numbers for TestWorld(E:\Development\Git\TestWorld\TestWorld.dpr) segment .text
 
-    10 0001:000AF094    11 0001:000AF0A4    12 0001:000AF0B0    13 0001:000AF0C8
-    14 0001:000AF0D4
+    10 0001:000AF0B8    11 0001:000AF0C8    12 0001:000AF0D4    13 0001:000AF0EC
+    14 0001:000AF0F8
 
 Bound resource files
 
@@ -15275,4 +15275,4 @@ TestWorld.res
 TestWorld.drf
 
 
-Program entry point at 0001:000AF094
+Program entry point at 0001:000AF0B8
