@@ -2,7 +2,7 @@ object Form1: TForm1
   Left = 192
   Top = 124
   Width = 189
-  Height = 134
+  Height = 153
   Caption = 'Form1'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -13,6 +13,13 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object Label1: TLabel
+    Left = 128
+    Top = 88
+    Width = 21
+    Height = 13
+    Caption = 'v1.1'
+  end
   object Button1: TButton
     Left = 16
     Top = 16
