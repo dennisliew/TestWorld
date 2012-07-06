@@ -10,6 +10,7 @@ type
   TForm1 = class(TForm)
     Button1: TButton;
     Button2: TButton;
+    Label1: TLabel;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
   private
@@ -28,10 +29,12 @@ implementation
 procedure TForm1.Button1Click(Sender: TObject);
 begin
   ShowMessage('Test World!');
+  ShowMessage('Test Dennis!');
 end;
 
 procedure TForm1.Button2Click(Sender: TObject);
 begin
+  ShowMessage('Bye!');
   Close;
 end;
 

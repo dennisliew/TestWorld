@@ -35,6 +35,7 @@ end;
 procedure TForm1.Button2Click(Sender: TObject);
 begin
   ShowMessage('Bye!');
+  ShowMessage('Bye Dennis!');
   Close;
 end;
 
